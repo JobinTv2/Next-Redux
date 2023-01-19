@@ -1,0 +1,1 @@
+export { useGetTimeHook } from './useGetTimeHook';
