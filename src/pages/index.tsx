@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
-import { Input } from 'antd';
+import { Input, Button } from 'antd';
 
 export default function Home(): JSX.Element {
   return (
@@ -13,8 +13,9 @@ export default function Home(): JSX.Element {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>
+        <div className={styles.container}>
           <Input />
+          <Button type="primary">Submit </Button>
         </div>
       </main>
     </>
